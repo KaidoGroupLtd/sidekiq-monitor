@@ -1,7 +1,7 @@
 name: Deploy to Amazon ECS
 
 env:
-  aws_region: eu-west-2
+  aws_region: eu-west-1
   task_definition_name: sidekiq
   service_name: sidekiq
   cluster_name: sidekiq
